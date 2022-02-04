@@ -1,0 +1,12 @@
+/* CSS DOCUMENT*/
+li {
+list-style: none;
+}
+ul{
+padding: 0;
+}
+h1 {
+background-color: rgb(30, 72, 122);
+color: rgb(166, 217, 226);
+font-family: serif;   
+}
