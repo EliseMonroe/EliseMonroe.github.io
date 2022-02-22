@@ -1,0 +1,149 @@
+/*CSS Document*/
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;	padding: 0;	border: 0;	vertical-align: baseline;}
+
+img.logo {
+    max-width: 13em;
+    padding: 2em 2em 0 2em;
+    margin: 0 0 0 0;}
+
+nav ul {
+    grid-column: 1/2;
+    padding: .5em;}
+
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 1em;
+    font-weight: 700;
+    font-family: Gill Sans, sans-serif;
+    font-variant: small-caps;}
+nav ul li a {
+    background-color: rrgb(280 231 255);
+    padding: .2em;
+    color: rgb(218, 93, 156);
+    text-decoration: none;}
+
+a {
+    color: rgb(218, 93, 156);}
+
+a:hover {
+    color: rgb(183 156 198);}
+
+h1 {
+    font-variant: small-caps;
+    font-family: Gill Sans, sans-serif;
+	font-weight: 700;
+	color: rgb(218, 93, 156);
+	margin: 2em 0 0 .5em;
+	letter-spacing: 0.1em;}
+
+h2 {
+    font-family: Gill Sans, sans-serif;
+	font-weight: 600;
+	color: rgb(218, 93, 156);
+	margin: 1em 0 0 .7em;
+	text-transform: capitalize;
+    letter-spacing: 0.1em;
+    font-variant: small-caps;}
+
+div.container {
+    max-width: 60em;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto 5em;}
+
+header {
+    grid-column: 1/2;}
+
+footer {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    background-color: rgb(254 241 254);}
+
+ul li {
+    list-style-type: none;}
+
+img {
+    max-width: 25em;
+    max-height: auto;
+    grid-column: 1/3;
+    padding: 1em 1em 0 1em;}
+
+section.happenings {
+    grid-column: 1/2;  
+    grid-row: 3/4;
+    font-weight: 300;
+    font-family: Gill Sans, sans-serif;
+    color: rgb(218, 93, 156);
+    margin: 1em;}
+
+h3 {
+    font-weight: 500;
+    font-family: Gill Sans, sans-serif;
+    font-variant: small-caps;
+    color: rgb(218, 93, 156);
+    margin: 1em 1em 1em 1em;}
+
+figure {
+       background-color: rgb(254 241 254);}
+
+main {
+       background-color: rgb(254 241 254);}
+
+figcaption {
+    font-family: Gill Sans, sans-serif;
+	font-weight: 300;
+	color: rgb(218, 93, 156);
+	margin: 0 2em 0 1em;}
+
+h4 {
+    font-family: Gill Sans, sans-serif;
+	font-weight: 500;
+	color: rgb(218, 93, 156);
+    margin: 1.5em 1em 0 1.2em;}
+
+p.eventdetails {
+    font-style: italic;
+    margin-bottom: .5em;
+    font-weight: 400;}
+
+p {
+    font-family: Gill Sans, sans-serif;
+	font-weight: 300;
+	color: rgb(218, 93, 156);
+	margin: 1em;
+    letter-spacing: 0.1em;}
+
+p.footer {
+    font-family: Gill Sans, sans-serif;
+	color: rgb(218, 93, 156);
+	margin: 2em 1em;
+    font-style: italic;}
+
+h1.join{
+    text-align: center;
+    font-weight: 700;
+    font-family: Gill Sans, sans-serif;
+    color: rgb(218, 93, 156);
+    margin: 1em;
+    text-transform: none;}
+
+h3.apply{
+    text-align: center;
+    font-weight: 700;
+    font-family: Gill Sans, sans-serif;
+    font-variant: small-caps;
+    color: rgb(254 241 254);
+    margin: 1em 2em 2em 2em;
+    padding: 1em;
+    background-color: rgb(218, 93, 156);}
+
+p.date { margin: 2em 1em 1em 1em;
+    font-weight: 500;}
+
+p.money{
+    font-style:italic;
+    font-weight: 600;
+    margin: 0 0 2em 1em;}
